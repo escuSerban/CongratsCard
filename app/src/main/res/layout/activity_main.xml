@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/balloons"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You have everything you need to make your dreams come true"
+        android:paddingTop="30dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="175dp"
+        android:textStyle="italic"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="23sp"
+        android:textColor="@android:color/holo_orange_dark"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Congratulations!"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:paddingTop="175dp"
+        android:paddingRight="20dp"
+        android:textStyle="italic"
+        android:fontFamily="cursive"
+        android:textSize="30sp"
+        android:textColor="@android:color/holo_orange_dark"/>
+
+<!--tag-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" * escu.Serban"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="sans-serif-light"/>
+
+</RelativeLayout>
